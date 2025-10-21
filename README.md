@@ -44,11 +44,9 @@ AudioPluginAudioProcessor::AudioPluginAudioProcessor()
 
 # Build: CMake
 ``` cmake
-  // Clone
   git clone --recursive https://github.com/SaturnDSP/JucePluginTemplate.git
   cd JucePluginTemplate
 
-  // Build
   mkdir build
   cd build
   cmake -S ../ -B .  -G Ninja -DCMAKE_BUILD_TYPE=Debug
