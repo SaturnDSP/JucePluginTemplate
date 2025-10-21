@@ -1,0 +1,7 @@
+Modules/
+Out/
+build/
+cmake-build-debug/
+cmake-build-release/
+compile_commands.json
+.idea/
